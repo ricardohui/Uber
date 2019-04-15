@@ -14,6 +14,7 @@
 		A7CB0F392263EE4C0044BA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CB0F382263EE4C0044BA2D /* Assets.xcassets */; };
 		A7CB0F3C2263EE4C0044BA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CB0F3A2263EE4C0044BA2D /* LaunchScreen.storyboard */; };
 		A7CB0F442263F0A40044BA2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7CB0F432263F0A40044BA2D /* GoogleService-Info.plist */; };
+		A7CB0F46226402480044BA2D /* RiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB0F45226402480044BA2D /* RiderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A7CB0F3B2263EE4C0044BA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7CB0F3D2263EE4C0044BA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7CB0F432263F0A40044BA2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7CB0F45226402480044BA2D /* RiderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				A7CB0F312263EE480044BA2D /* AppDelegate.swift */,
 				A7CB0F332263EE480044BA2D /* ViewController.swift */,
 				A7CB0F352263EE480044BA2D /* Main.storyboard */,
+				A7CB0F45226402480044BA2D /* RiderViewController.swift */,
 				A7CB0F382263EE4C0044BA2D /* Assets.xcassets */,
 				A7CB0F3A2263EE4C0044BA2D /* LaunchScreen.storyboard */,
 				A7CB0F432263F0A40044BA2D /* GoogleService-Info.plist */,
@@ -88,7 +91,6 @@
 				997A1C49E0E899E651B62390 /* Pods-Uber.debug.xcconfig */,
 				6AC4F7141DB596BD756BFEFF /* Pods-Uber.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -173,6 +175,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Uber/Pods-Uber-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -181,6 +184,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7CB0F342263EE480044BA2D /* ViewController.swift in Sources */,
+				A7CB0F46226402480044BA2D /* RiderViewController.swift in Sources */,
 				A7CB0F322263EE480044BA2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +377,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ricardohui.Uber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardohui.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,7 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ricardohui.Uber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardohui.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
