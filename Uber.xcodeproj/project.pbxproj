@@ -15,6 +15,8 @@
 		A7CB0F3C2263EE4C0044BA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CB0F3A2263EE4C0044BA2D /* LaunchScreen.storyboard */; };
 		A7CB0F442263F0A40044BA2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7CB0F432263F0A40044BA2D /* GoogleService-Info.plist */; };
 		A7CB0F46226402480044BA2D /* RiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB0F45226402480044BA2D /* RiderViewController.swift */; };
+		A7CB0F482265542E0044BA2D /* DriverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB0F472265542E0044BA2D /* DriverTableViewController.swift */; };
+		A7CB0F4A226697FC0044BA2D /* AcceptRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB0F49226697FC0044BA2D /* AcceptRequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A7CB0F3D2263EE4C0044BA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7CB0F432263F0A40044BA2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A7CB0F45226402480044BA2D /* RiderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderViewController.swift; sourceTree = "<group>"; };
+		A7CB0F472265542E0044BA2D /* DriverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverTableViewController.swift; sourceTree = "<group>"; };
+		A7CB0F49226697FC0044BA2D /* AcceptRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptRequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +80,9 @@
 				A7CB0F312263EE480044BA2D /* AppDelegate.swift */,
 				A7CB0F332263EE480044BA2D /* ViewController.swift */,
 				A7CB0F352263EE480044BA2D /* Main.storyboard */,
+				A7CB0F49226697FC0044BA2D /* AcceptRequestViewController.swift */,
 				A7CB0F45226402480044BA2D /* RiderViewController.swift */,
+				A7CB0F472265542E0044BA2D /* DriverTableViewController.swift */,
 				A7CB0F382263EE4C0044BA2D /* Assets.xcassets */,
 				A7CB0F3A2263EE4C0044BA2D /* LaunchScreen.storyboard */,
 				A7CB0F432263F0A40044BA2D /* GoogleService-Info.plist */,
@@ -222,8 +228,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7CB0F342263EE480044BA2D /* ViewController.swift in Sources */,
+				A7CB0F482265542E0044BA2D /* DriverTableViewController.swift in Sources */,
 				A7CB0F46226402480044BA2D /* RiderViewController.swift in Sources */,
 				A7CB0F322263EE480044BA2D /* AppDelegate.swift in Sources */,
+				A7CB0F4A226697FC0044BA2D /* AcceptRequestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
