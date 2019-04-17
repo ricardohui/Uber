@@ -46,7 +46,7 @@ class AcceptRequestViewController: UIViewController {
                     let mapItem = MKMapItem(placemark: placeMark)
                     mapItem.name = self.requestEmail
                     let options = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
-                    mapItem.openInMaps(launchOptions: options)
+                    mapItem.openInMaps(launchOptions: options) 
                 }
             }
         }

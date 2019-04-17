@@ -28,6 +28,16 @@ class DriverTableViewController: UITableViewController, CLLocationManagerDelegat
         
         
         Database.database().reference().child("RideRequests").observe(.childAdded) { (snapshot) in
+            if let rideRequestDictionary = snapshot.value as? [String:AnyObject]{
+                if let driverLat = rideRequestDictionary["driverLat"] as? Double{
+                    
+                }else{
+                    self.rideRequests.append(snapshot)
+                    self.tableView.reloadData()
+                }
+            }
+            
+            
             self.rideRequests.append(snapshot)
             self.tableView.reloadData()
         }
